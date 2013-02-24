@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.dukascopy.api</groupId>
-            <artifactId>JForex-API</artifactId>
-            <version>2.7.9</version>
+            <groupId>com.dukascopy.dds2</groupId>
+            <artifactId>JForex-SDK</artifactId>
+            <version>2.24</version>
         </dependency>
         <dependency>
             <groupId>org.jeromq</groupId>
