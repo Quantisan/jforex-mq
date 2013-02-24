@@ -1,3 +1,3 @@
 # jForex-mq
 
-Expose jForex API to ZeroMQ.
+Expose JForex API to ZeroMQ.

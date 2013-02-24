@@ -9,7 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>jforex-mq</name>
-    <description>expose jForex API to zeromq</description>
+    <description>expose JForex API to zeromq</description>
 
     <licenses>
         <license>
