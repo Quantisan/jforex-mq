@@ -66,7 +66,7 @@ public class Main {
         client.connect(jnlpUrl, userName, password);
 
         //wait for it to connect
-        int i = 15; //wait max fifteen seconds
+        int i = 30; //wait max thirty seconds
         while (i > 0 && !client.isConnected()) {
             Thread.sleep(1000);
             i--;
@@ -75,5 +75,12 @@ public class Main {
             LOGGER.error("Failed to connect to Dukascopy server");
             System.exit(1);
         }
+
+
+        LOGGER.info("Ready!");
+
+        client.disconnect();
+
+        LOGGER.info("Successfully disconnected.");
     }
 }
