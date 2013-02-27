@@ -9,7 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>jforex-mq</name>
-    <description>expose JForex API to zeromq</description>
+    <description>expose JForex API to a message queue</description>
 
     <licenses>
         <license>
@@ -23,11 +23,6 @@
             <groupId>com.dukascopy.dds2</groupId>
             <artifactId>JForex-SDK</artifactId>
             <version>2.24</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jeromq</groupId>
-            <artifactId>jeromq</artifactId>
-            <version>0.2.0</version>
         </dependency>
     </dependencies>
 

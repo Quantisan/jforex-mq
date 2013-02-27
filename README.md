@@ -1,1 +1,1 @@
-Expose JForex API to ZeroMQ.
+Expose JForex API to RabbitMQ
